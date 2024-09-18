@@ -1,0 +1,22 @@
+Package: MakeCV
+Title: R-package to make the CV
+Version: 0.3.1
+Authors@R: "Ismael Soto <isma-sa@hotmail.com@hotmail.com> [aut, cre]"
+Description: R-package and some plots about your CV
+Depends:
+    R (>= 3.1.1)
+License: CC-BY-NC-SA 4.0
+LazyData: true
+URL: https://github.com/IsmaSA/MakeCV
+BugReports: https://github.com/IsmaSA/MakeCV/issues
+VignetteBuilder: knitr
+Imports:
+    ggplot2,
+    knitr (>= 1.5),
+    RefManageR,
+    rmarkdown,
+    scholar,
+    XML
+Suggests:
+    knitcitations (>= 0.6),
+    testthat
